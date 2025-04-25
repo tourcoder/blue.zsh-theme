@@ -106,4 +106,4 @@ Suggestions and pull requests are welcome! Please open an issue or submit a pull
 
 ---
 
-Happy coding with Blue ZSH Theme! 🚀  © 2025 Bin Hua
+Happy coding with Blue ZSH Theme! 🚀 
