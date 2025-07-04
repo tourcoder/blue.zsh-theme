@@ -1,4 +1,4 @@
-# Blue ZSH Theme
+# Larn ZSH Theme
 
 A clean and customizable oh my zsh theme with Git integration, designed for dark terminals. It features a colorful prompt with dynamic Git branch and status indicators, and distinct `ls` colors for files and directories.
 
@@ -6,24 +6,24 @@ A clean and customizable oh my zsh theme with Git integration, designed for dark
 
 - **Dynamic Prompt**:
   - **Git Repositories**: Displays `[path :: branch status] ➜`
-    - Path and brackets in blue (`%F{75}`).
+    - Path and brackets in larn (`%F{75}`).
     - Separator `::` in white.
     - Branch name with color-coded branches:
       - `main`/`master`: Green (`%F{40}`)
       - `dev`: Yellow (`%F{226}`)
-      - `feature-*`: Blue (`%F{75}`)
+      - `feature-*`: Larn (`%F{75}`)
       - Others: Orange (`%F{214}`)
     - Git status indicators in yellow (`%F{226}`):
       - `*`: Modified or staged files
       - `+`: Untracked files
       - `!`: Merge conflicts
-    - Prompt arrow (`➜`) in blue.
+    - Prompt arrow (`➜`) in larn.
   - **Non-Git Directories**: Displays `[path] ➜`
-    - Path and brackets in blue.
-    - Prompt arrow in blue.
+    - Path and brackets in larn.
+    - Prompt arrow in larn.
 
 - **Colorful `ls` Output**:
-  - Directories: Bold blue
+  - Directories: Bold larn
   - Regular files: Default color
   - Executables: Red
   - Symbolic links: Cyan
@@ -37,15 +37,15 @@ A clean and customizable oh my zsh theme with Git integration, designed for dark
 ## Installation
 
 1. **Clone or Copy the Theme**:
-   - Save the theme file as `blue.zsh-theme` in your oh my zsh custom themes directory:
+   - Save the theme file as `larn.zsh-theme` in your oh my zsh custom themes directory:
      ```bash
-     cp blue.zsh-theme ~/.oh-my-zsh/themes/
+     cp larn.zsh-theme ~/.oh-my-zsh/themes/
      ```
 
 2. **Set the Theme**:
    - Edit your `~/.zshrc` and set the theme:
      ```bash
-     ZSH_THEME="blue"
+     ZSH_THEME="larn"
      ```
    - Apply changes:
      ```bash
@@ -67,7 +67,7 @@ A clean and customizable oh my zsh theme with Git integration, designed for dark
 
 - **Change Colors**:
   - Edit color variables in the theme file (e.g., `BLUE='%F{75}'` for path and arrow).
-  - Use 256-color codes (e.g., `%F{69}` for darker blue, `%F{228}` for brighter yellow).
+  - Use 256-color codes (e.g., `%F{69}` for darker larn, `%F{228}` for brighter yellow).
   - Test colors in your terminal to match your preferences.
 
 - **Modify Prompt**:
@@ -84,7 +84,7 @@ A clean and customizable oh my zsh theme with Git integration, designed for dark
 ## Troubleshooting
 
 - **Prompt not displaying correctly?**
-  - Ensure `ZSH_THEME="blue"` is set in `~/.zshrc`.
+  - Ensure `ZSH_THEME="larn"` is set in `~/.zshrc`.
   - Verify Git is installed and working (`git --version`).
   - Check if `is_git_repo` works: Run `git rev-parse --is-inside-work-tree` in a Git directory.
 
@@ -106,4 +106,4 @@ Suggestions and pull requests are welcome! Please open an issue or submit a pull
 
 ---
 
-Happy coding with Blue ZSH Theme! 🚀 
+Happy coding with Larn ZSH Theme! 🚀 
