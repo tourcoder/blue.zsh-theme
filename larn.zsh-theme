@@ -1,6 +1,6 @@
-# Title: Blue
+# Title: Larn
 # Description: Custom oh my zsh theme with Git integration and colored prompt
-# Copyright (c) 2025 Bin Hua <https://binhua.org>
+# Copyright (c) 2025 Bin Hua <https://tourcoder.com>
 
 # Color configuration (for dark terminal)
 local BLUE='%F{75}'       # Path, brackets, and arrow
