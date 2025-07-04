@@ -2,6 +2,8 @@
 
 A clean and customizable oh my zsh theme with Git integration, designed for dark terminals. It features a colorful prompt with dynamic Git branch and status indicators, and distinct `ls` colors for files and directories.
 
+![Larn Screenshots](larn-theme-ss.png)
+
 ## Features
 
 - **Dynamic Prompt**:
@@ -98,7 +100,7 @@ A clean and customizable oh my zsh theme with Git integration, designed for dark
 
 ## License
 
-This theme is released under the MIT License. Feel free to modify and share!
+This theme is released under the [MIT License](/LICENSE). Feel free to modify and share!
 
 ## Contributing
 
